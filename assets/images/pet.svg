@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512px"
+   height="512px"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="pet.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview829"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.33184273"
+     inkscape:cx="-292.30714"
+     inkscape:cy="310.388"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs824">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2004">
+      <stop
+         style="stop-color:#ff9c00;stop-opacity:1"
+         offset="0"
+         id="stop2000" />
+      <stop
+         style="stop-color:#ffec00;stop-opacity:1"
+         offset="1"
+         id="stop2002" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2004"
+       id="linearGradient2006"
+       x1="268.48697"
+       y1="462.39426"
+       x2="270.89853"
+       y2="-89.861259"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:url(#linearGradient2006);stroke-width:35;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;fill-opacity:1"
+       id="path936"
+       cx="257.39203"
+       cy="256.8988"
+       r="222.24384" />
+    <ellipse
+       style="fill:#333333;stroke-width:35;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="path1040"
+       cx="161.37575"
+       cy="263.42218"
+       rx="52.890629"
+       ry="73.160828" />
+    <ellipse
+       style="fill:#333333;stroke-width:35;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="path1040-1"
+       cx="356.23444"
+       cy="264.00751"
+       rx="52.890629"
+       ry="73.160828" />
+    <ellipse
+       style="fill:#333333;stroke-width:34.9998;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="path1040-1-6"
+       cx="-322.63928"
+       cy="270.91675"
+       rx="23.74296"
+       ry="32.842388"
+       transform="rotate(-87.877614)" />
+  </g>
+</svg>

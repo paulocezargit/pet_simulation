@@ -1,6 +1,9 @@
 
-.p-page{  }
-.p-box{  }
-.p-pet-img{  }
-.p-actions-align{  }
-.p-actions-button{  }
+body{ font-family: "Roboto", sans-serif; }
+.p-page{ background-image: linear-gradient(to bottom, #6b675e, #56534c, #42403a, #2f2d29, #1d1c19); position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; box-sizing: border-box; display: flex; align-items:center; justify-content: center; }
+.p-box{ width: 600px; }
+.p-pet-img{ width:100%; }
+.p-actions-align{ display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-gap:5px; }
+.p-actions-button{ width: 100%; padding: 10px; background-color: #00d986; color: #fff; font-size: 16px; font-weight: 700; border:none; cursor: pointer; border-radius: 3px;  }
+.p-actions-button:hover{ background-color: #009a60; }
+.p-actions-button:active{ background-color: #00d986; }
