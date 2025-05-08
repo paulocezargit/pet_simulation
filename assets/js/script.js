@@ -1,4 +1,16 @@
 
+var pet_button_eat = document.getElementById("pet_button_eat");
+var pet_button_drink = document.getElementById("pet_button_drink");
+var pet_button_play = document.getElementById("pet_button_play");
+var pet_button_sleep = document.getElementById("pet_button_sleep");
+var pet_button_bath = document.getElementById("pet_button_bath");
+
+var pet_value_eat = document.getElementById("pet_value_eat");
+var pet_value_drink = document.getElementById("pet_value_drink");
+var pet_value_play = document.getElementById("pet_value_play");
+var pet_value_sleep = document.getElementById("pet_value_sleep");
+var pet_value_bath = document.getElementById("pet_value_bath");
+
 var name;
 var age;
 var months;
@@ -37,30 +49,35 @@ function Start(){
 function Eat(){
 
 	hunger = 100;
+    pet_value_eat.innerHTML = 100 + "%";
 
 }
 
 function Drink(){
 
 	thirst = 100;
+    pet_value_drink.innerHTML = 100 + "%";
 
 }
 
 function Play(){
 
 	happiness = 100;
+	pet_value_play.innerHTML = 100 + "%";
 
 }
 
 function Sleep(){
 
 	sleepiness = 100;
+	pet_value_sleep.innerHTML = 100 + "%";
 
 }
 
 function Bath(){
 
 	hygiene = 100;
+	pet_value_bath.innerHTML = 100 + "%";
 
 }
 
@@ -72,6 +89,7 @@ function TimeCycle(){
 
 		minutes = 0;
 		hours += 1;
+
 	}
 
 	if(hours > 24){
@@ -95,22 +113,55 @@ function TimeCycle(){
 
 	}
 
+	hunger -= 1;
+	thirst -= 1;
+	happiness -= 1;
+	sleepiness -= 1;
+	hygiene -= 1;
+	mood -= 1;
 
-	if(minutes > 60){
+	pet_value_eat.innerHTML = "" + hunger + "%";
+	pet_value_drink.innerHTML = "" + thirst + "%";
+	pet_value_play.innerHTML = "" + happiness + "%";
+	pet_value_sleep.innerHTML = "" + sleepiness + "%";
+	pet_value_bath.innerHTML = "" + hygiene + "%";
 
-		hunger -= 1;
-		thirst -= 1;
-		happiness -= 1;
-		sleepiness -= 1;
-		hygiene -= 1;
-		mood -= 1;
-
-	}
-    
-	
-	is_alive -= true;
+	is_alive = true;
 
 }
 
+
+pet_button_eat.addEventListener("click", function() {
+
+	Eat();
+
+});
+
+pet_button_drink.addEventListener("click", function() {
+
+	Drink();
+
+});
+
+pet_button_play.addEventListener("click", function() {
+    
+    Play();
+
+});
+
+pet_button_sleep.addEventListener("click", function() {
+    
+    Sleep();
+
+});
+
+pet_button_bath.addEventListener("click", function() {
+    
+    Bath();
+
+});
+
+
+setInterval(TimeCycle, 1000);
 
 Start();
